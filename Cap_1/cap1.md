@@ -8,4 +8,4 @@ Sabendo desta informação vamos entender qual o papel do `Docker`
 
 `Docker` é uma tecnologia que facilita manusear containers, com o docker você consegue realizar várias funcionalidades com containers de forma muito simples, para mais informações segue [link](https://docs.docker.com/)
 
-[logo]: ../imgs/containers_docker.png "Container e Docker"
+![containers_docker] (https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/containers_docker.png)
