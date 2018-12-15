@@ -10,7 +10,6 @@ Sabendo desta informação vamos entender qual o papel do `Docker`
 
 ![containers_docker](https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/containers_docker.png)
 
-
 ---
 
 # Primeiros passo com `Docker`
@@ -57,3 +56,23 @@ docker volume      Manage volumes
 ```
 
 ---
+
+## Agora vamos a pratica
+
+**Informações docker**
+
+Aqui visualizamos todas as informações pertinentes ao docker, como versão, quantidade de imagens, containers e etc.
+
+```
+docker info
+```
+
+![Docker_info](https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/docker_info.png)
+
+**Subindo um container**
+
+Para que programa é um pratica muito comun na programação começarmos com o "Hello world", aqui não é diferente.
+
+```
+docker container run -ti hello-world
+```
