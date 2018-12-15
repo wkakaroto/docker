@@ -67,7 +67,8 @@ Aqui visualizamos todas as informações pertinentes ao docker, como versão, qu
 docker info
 ```
 
-![Docker_info](https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/docker_info.png)
+![Docker_info](https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/docker_info.png =300x450)
+
 
 **Subindo um container**
 
