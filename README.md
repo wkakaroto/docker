@@ -7,4 +7,5 @@ Vou seguir uma linha que acho, que será a mais simples de entender os conceitos
 
 - O que container ?
 - O que é docker ?
+- O porque trabalhar com containers ?
 - Primeiros passos

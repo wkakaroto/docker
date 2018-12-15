@@ -2,6 +2,8 @@
 
 Container é nada mais que um isolamento de recursos, que roda dentro de uma instancia, porém containers compartilham recursos do OS ao qual está sendo executado, diferente das maquinas virtuais, o contianer não precisa de recursos como kernel e driver, pense em um container como lojas de um shopping, cada loga tem sua propria caracteristicas e tamanho, mas todas compartilham os recursos do shopping em sí, todas estão detro da estrutura do shopping.
 
+A utilização dos containers se da atravez a utilização de imagens, que podem ou não estar já pré configuradas.
+
 Sabendo desta informação vamos entender qual o papel do `Docker`
 
 # O que é `Docker` ?
@@ -9,6 +11,10 @@ Sabendo desta informação vamos entender qual o papel do `Docker`
 `Docker` é uma tecnologia que facilita manusear containers, com o docker você consegue realizar várias funcionalidades com containers de forma muito simples, para mais informações segue [link](https://docs.docker.com/)
 
 ![containers_docker](https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/containers_docker.png)
+
+# O porque trabalhar com containers ?
+
+Containers permitem que uma imagem seja criada e/ou customizada e utilizada de forma simples e rápida por não somente sysadmins, mas também por desenvolvedores de forma simples e pratica. Outros pontos que a utilização de contianers podem te ajuda é na portabilidade de ambiente, você consegue replicar um ambiente rapidamente e sem complicações.
 
 ---
 
@@ -23,6 +29,8 @@ Bom como falei acima para quem utiliza windows a melhor opção é criar um cont
 
 - [Play with docker](https://labs.play-with-docker.com/)
 
+
+---
 
 ## Comandos básicos
 
@@ -69,10 +77,24 @@ docker info
 
 ![Docker_info](https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/docker_info.png)
 
+---
 
 **Subindo um container**
 
-Para que programa é um pratica muito comun na programação começarmos com o "Hello world", aqui não é diferente.
+Para subir um container na mão temos alguns itens essenciais
+
+
+```
+docker container run <parametros> <image>
+```
+
+Parametro | descrição
+:---:|:---:
+`t` | exibir dados ssh
+`i` | saída iterativa
+
+
+Na programação é um pratica muito comun começarmos com o "Hello world", aqui não é diferente.
 
 ```
 docker container run -ti hello-world
