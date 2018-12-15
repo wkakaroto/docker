@@ -10,7 +10,9 @@ Sabendo desta informação vamos entender qual o papel do `Docker`
 
 `Docker` é uma tecnologia que facilita manusear containers, com o docker você consegue realizar várias funcionalidades com containers de forma muito simples, para mais informações segue [link](https://docs.docker.com/)
 
-![containers_docker](https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/containers_docker.png)
+![containers_docker](./Cap_1/imgs/containers_docker.png)
+
+---
 
 # O porque trabalhar com containers ?
 
@@ -75,7 +77,7 @@ Aqui visualizamos todas as informações pertinentes ao docker, como versão, qu
 docker info
 ```
 
-![Docker_info](https://github.com/kaioaresi/docker/blob/master/Cap_1/imgs/docker_info.png)
+![Docker_info](./Cap_1/imgs/docker_info.png)
 
 ---
 
@@ -90,12 +92,27 @@ docker container run <parametros> <image>
 
 Parametro | descrição
 :---:|:---:
-`t` | exibir dados ssh
-`i` | saída iterativa
+`-t` | exibir dados ssh
+`-i` | saída iterativa
 
 
-Na programação é um pratica muito comun começarmos com o "Hello world", aqui não é diferente.
+Esses parametros foram utilizados pois queremos ver os logs da image em tempo real, esses parametros **NÃO** mantem o container rodando.
+
+Na programação é um pratica muito comum começarmos com o "Hello world", aqui não é diferente.
 
 ```
 docker container run -ti hello-world
 ```
+
+Agora vamos subir uma image `nginx` e vamos acessa-la pelo navegador.
+
+Parametro | descrição
+:---:|:---:
+`-d` | mantem o container executando em background
+`--name` | definir um nome no container
+
+```
+docker container run -d --name servidor_nginx  nginx
+```
+
+---
