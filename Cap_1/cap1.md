@@ -104,7 +104,7 @@ Na programação é um pratica muito comum começarmos com o "Hello world", aqui
 docker container run -ti hello-world
 ```
 
-Agora vamos subir uma image `nginx` e vamos acessa-la pelo navegador.
+Agora vamos subir uma image `nginx`.
 
 Parametro | descrição
 :---:|:---:
@@ -115,4 +115,21 @@ Parametro | descrição
 docker container run -d --name servidor_nginx  nginx
 ```
 
----
+**Listando** containers para capturar o `CONTAINER ID`.
+
+```
+docker container ls
+```
+
+**Deletando** containers
+
+Pré requisito tem um `CONTAINER ID`.
+
+Parametro | descrição
+:---:|:---:
+`rm` | opção para remover container
+`-f` | força a remoção, caso em execução
+
+```
+docker contaienr rm -f <CONTAINER ID>
+```
