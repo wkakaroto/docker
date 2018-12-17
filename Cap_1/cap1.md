@@ -10,7 +10,7 @@ Sabendo desta informação vamos entender qual o papel do `Docker`
 
 `Docker` é uma tecnologia que facilita manusear containers, com o docker você consegue realizar várias funcionalidades com containers de forma muito simples, para mais informações segue [link](https://docs.docker.com/)
 
-![containers_docker](./Cap_1/imgs/containers_docker.png)
+![containers_docker](./imgs/containers_docker.png)
 
 ---
 
@@ -77,7 +77,7 @@ Aqui visualizamos todas as informações pertinentes ao docker, como versão, qu
 docker info
 ```
 
-![Docker_info](./Cap_1/imgs/docker_info.png)
+![Docker_info](./imgs/docker_info.png)
 
 ---
 
