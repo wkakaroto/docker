@@ -1,6 +1,6 @@
 # O que é `container` ?
 
-Container é nada mais que um isolamento de recursos, que roda dentro de uma instancia, porém containers compartilham recursos do OS ao qual está sendo executado, diferente das maquinas virtuais, o contianer não precisa de recursos como kernel e driver, pense em um container como lojas de um shopping, cada loga tem sua propria caracteristicas e tamanho, mas todas compartilham os recursos do shopping em sí, todas estão detro da estrutura do shopping.
+Container é nada mais que um isolamento de recursos, que roda dentro de uma instancia, porém containers compartilham recursos do OS ao qual está sendo executado, diferente das maquinas virtuais, o container não precisa de recursos como kernel e driver, pense em um container como lojas de um shopping, cada loja tem sua propria caracteristicas e tamanho, mas todas compartilham os recursos do shopping em sí, todas estão detro da estrutura do shopping.
 
 A utilização dos containers se da atravez a utilização de imagens, que podem ou não estar já pré configuradas.
 
@@ -23,7 +23,7 @@ Containers permitem que uma imagem seja criada e/ou customizada e utilizada de f
 # Primeiros passo com `Docker`
 
 ## Instalando o docker
-Existem alguns meios para realiza a instalanção do `docker`, se você é usuário linux, sua via é bem mais simples você poderá realizar a instalação via `curl`, gerenciado de pacote ou source, já se você é usuário windows até funciona mas eu **NÂO INDICO** por enguanto, existem site que você poderá trabalhar com docker sem muitos problemas, segue link:
+Existem alguns meios para realizar a instalanção do `docker`, se você é usuário linux, sua via é bem mais simples você poderá realizar a instalação via `curl`, gerenciado de pacote ou source, já se você é usuário windows até funciona mas eu **NÂO INDICO** por enquanto, existem site que você poderá trabalhar com docker sem muitos problemas, segue link:
 
 - [Linux](https://docs.docker.com/install/linux/docker-ce/centos/)
 
@@ -42,7 +42,7 @@ Após realizar a instalação do docker, vamos checar as informações do mesmo,
 ---
 **Docker cli - Lógica de utilização**
 
-Para utilizar o docker, primeiramento você deve conher sua logica de comandos, que é bem simple, ele utiliza o formato de subprocess, sequidos por parametros e cada comando possui seus respectivos parametros, vamos aos exemplos:
+Para utilizar o docker, primeiramento você deve conhecer sua logica de comandos, que é bem simples, ele utiliza o formato de subprocess, seguidos por parametros e cada comando possui seus respectivos parametros, vamos aos exemplos:
 
 ```
 docker <comandos> <parametros>
